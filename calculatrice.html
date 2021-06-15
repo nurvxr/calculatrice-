@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+	<style>
+        body{
+      font-family: Comic sans MS;
+      
+      
+       
+       background: lightblue url("Designs.jpg") ;
+       width: 100%;
+       height: 100%;
+
+        }
+    
+        div {
+      background-color: none;
+      width: 300px;
+      border-radius: 200px;
+      padding:100px;
+    
+    }
+    #first{
+      background-color:   #956a26;
+      border-radius: 15px;
+      width: 80px;
+      height: 40px;
+
+
+    }
+    #second {
+      background-color:  #f28b2c;
+      border-radius: 15px;
+      width: 80px;
+      height: 40px;
+    }
+	#rst{
+		background-color: #feefd8;
+		border-radius: 15px;
+		width: 250px;
+		height: 30px;
+	}
+	#rsty{
+		background-color: #feefd8;
+		border-radius: 15px;
+		width: 250px;
+		height: 30px;
+	}
+	#rse{
+		background-color: #feefd8;
+		border-radius: 15px;
+		width: 250px;
+		height: 30px;
+	}
+        </style>
+<center><body>
+	<div>
+	
+	<input type="text" id="rst" value="" disabled>	<input type="text" placeholder="entrer un nombre"id="rsty" placeholde="donner y" value="" style="visibility:hidden;"><br>
+	<input type="text" id="rse" value="" disabled><br><br>
+	<input id="second"type="button" name="" onclick="change()" value="change">
+	<input id="second"type="button" name="" onclick="lenm()" value="b">
+	<input id="first" type="button" name="" onclick="n0()" value="0">
+	<input id="first" type="button" name="" onclick="n1()" value="1">
+	<input id="first" type="button" name="" onclick="n2()" value="2">
+	<input id="first" type="button" name="" onclick="n3()" value="3"><br>
+	<input id="first" type="button" name="" onclick="n4()" value="4">
+	<input id="first" type="button" name="" onclick="n5()" value="5">
+	<input id="first" type="button" name="" onclick="n6()" value="6">
+	<input id="first" type="button" name="" onclick="n7()" value="7">
+	<input id="first" type="button" name="" onclick="n8()" value="8">
+	<input id="first" type="button" name="" onclick="n9()" value="9"><br>
+	<input id="second" type="button" name="" onclick="point()" value=".">
+	<input id="second" type="button" name="" onclick="egal()" value="=">
+	<input id="second" type="button" name="" onclick="plus()" value="+">
+	<input id="second" type="button" name="" onclick="moin()" value="-">
+    <input id="second" type="button" name="" onclick="fois()" value="*">
+	<input id="second" type="button" name="" onclick="mod()" value="%"><br>
+	<input id="second" type="button" name="" onclick="sur()" value="/">
+	<input id="second" type="button" name="" onclick="racine()" value="√">
+	<input id="second" type="button" name="" onclick="par1()" value="(">
+	<input id="second" type="button" name="" onclick="par2()" value=")">
+	<input id="second" type="button" name="" onclick="pow()" value="x ^ y">
+	<input id="second" type="button" name="" onclick="cosinus()" value="cos">
+	<input id="second" type="button" name="" onclick="sinus()" value="sin">
+
+	<input id="second" type="button" name="" onclick="tang()" value="tang">
+	<input id="second" type="button" name="" onclick="arc_cosinus()" value="arc_cos">
+	<input id="second" type="button" name="" onclick="arc_sinus()" value="arc_sin">
+
+	<input id="second" type="button" name="" onclick="arc_tang()" value="arc_tang">
+	<input id="second" type="button" name="" onclick="abs()" value="abs">
+	<input id="second" type="button" name="" onclick="PGCD()" value="PGCD">
+	<input id="second" type="button" name="" onclick="PPCM()" value="PPCM">
+	<input id="second" type="button" name="" onclick="premier()" value="premier">
+	<input id="second" type="button" name="" onclick="parfait()" value="parfait">
+	<input id="second" type="button" name="" onclick="fact()" value="factorel">
+	<input id="second" type="button" name="" onclick="log()" value="log">
+</div>
+
+<script>
+	kjah=false
+	e=document.getElementById("rst").value
+	function n0() {
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"0";
+	document.getElementById("rst").value = e
+}
+function n1(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"1"
+	document.getElementById("rst").value=e
+}
+function n2(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"2"
+	document.getElementById("rst").value=e
+
+}
+function n3(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"3"
+	document.getElementById("rst").value=e
+}
+function n4(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"4"
+	document.getElementById("rst").value=e
+}
+function n5(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"5"
+	document.getElementById("rst").value=e
+}
+function n6(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"6"
+	document.getElementById("rst").value=e
+}
+function n7(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"7"
+	document.getElementById("rst").value=e
+}
+function n8(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"8"
+	document.getElementById("rst").value=e
+}
+function n9(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"9"
+	document.getElementById("rst").value=e
+}
+function plus(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"+"
+	document.getElementById("rst").value=e
+}
+function moin(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"-"
+	document.getElementById("rst").value=e
+}
+function point(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"."
+	document.getElementById("rst").value=e
+}
+function par1(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"("
+	document.getElementById("rst").value=e
+}
+function par2(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+")"
+	document.getElementById("rst").value=e
+}
+function fois(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"*"
+	document.getElementById("rst").value=e
+}
+function mod(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"%"
+	document.getElementById("rst").value=e
+}
+function sur(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e+"/"
+	document.getElementById("rst").value=e
+}
+function egal(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    n=	document.getElementById("rst").value
+	document.getElementById("rse").value= eval(n)
+}
+
+
+function lenm(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+	e=e.substring(0, e.length-1);
+	document.getElementById("rst").value=e
+}
+function abs(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    n=	document.getElementById("rst").value
+	document.getElementById("rse").value= Math.abs(n)
+}
+function cosinus(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    n=	document.getElementById("rst").value
+	document.getElementById("rse").value= Math.cos(n)
+}
+function sinus(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    n=	document.getElementById("rst").value
+	document.getElementById("rse").value= Math.sin(n)
+}
+function tang(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    n=	document.getElementById("rst").value
+	document.getElementById("rse").value= Math.tan(n)
+}
+function arc_sinus(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    a=e
+	n=Math.log(a)
+	document.getElementById("rse").value=n
+}
+function arc_cosinus(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    a=e
+	n=Math.acos(a)
+	document.getElementById("rse").value=n
+}
+function arc_tang(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    a=e
+	n=Math.atan(a)
+	console.log(n)
+	document.getElementById("rse").value= n
+}
+function pow(){
+	kjah=true
+	document.getElementById("rsty").style.visibility = "visible";
+	document.getElementById("rst").style.width = "125px";
+	document.getElementById("rsty").style.width = "125px";
+	y=document.getElementById("rsty").value
+    n=	document.getElementById("rst").value
+	document.getElementById("rse").value= Math.pow(n, y)
+}
+function PGCD(y,n){
+	document.getElementById("rsty").style.visibility = "visible";
+	document.getElementById("rst").style.width = "125px";
+	document.getElementById("rsty").style.width = "125px";
+	y=document.getElementById("rsty").value
+    n=e
+	while (y>0) {   
+		r=n%y;
+		n=y;  
+		y=r;
+		console.log(n)
+		document.getElementById("rse").value= "le pgcd est ="+n
+	}   
+
+}
+function PPCM()
+ {
+	document.getElementById("rsty").style.visibility = "visible";
+	document.getElementById("rst").style.width = "125px";
+	document.getElementById("rsty").style.width = "125px";
+	a=document.getElementById("rsty").value
+    b=e
+ 	var p=parseInt(a);
+	while (a%b!=0)
+	{
+		console.log(a);
+		a=parseInt(a)+p;
+	}
+	console.log(a)
+	document.getElementById("rse").value= "le ppcm est ="+a
+}
+function premier(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    m=Number(e)
+    nbd=0
+    for(i=1;i<=m;i++){
+        if(m%i==0){
+            nbd=nbd+1
+        }
+    }
+    if(nbd==2){
+		document.getElementById("rse").value=e+" est premier"
+    }
+    else{
+		document.getElementById("rse").value=e+" n'est pas premier"
+    }
+}
+function parfait(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    n=Number(e)
+    nb=0
+    for(i=1;i<n;i++){
+        if (n%i==0){
+            nb+=i
+        }
+    }
+    if(nb==n){
+        document.getElementById("rse").value=e+" est un nombre parfait"
+    }
+    else{
+        document.getElementById("rse").value=e+" n'est pas un nombre parfait"
+    }
+
+}
+function fact(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    a=Number(e)
+    s=1
+    for(i=1;i<=a;i++){
+        s=s*i
+    }
+	console.log(s)
+    document.getElementById("rse").value=s
+    s=1
+}
+function change(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    a=e
+	n=document.getElementById("rse").value
+	document.getElementById("rst").value=n
+	document.getElementById("rse").value=""
+	e=n
+}
+function racine(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    a=e
+	n=Math.sqrt(a)
+	document.getElementById("rse").value=n
+}
+function log(){
+	document.getElementById("rsty").style.visibility = "hidden";
+	document.getElementById("rst").style.width = "240px";
+    a=e
+	n=Math.log(a)
+	document.getElementById("rse").value=n
+}
+</script>
+
+</body>
+</html>
